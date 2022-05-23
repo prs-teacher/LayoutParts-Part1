@@ -1,0 +1,40 @@
+HTML table
+table classで表をCSSでデザイン指定する場合使える。
+thead:表のヘッダー部分(一番上)
+tbody:表の中身、本体部分
+tfoot:表のフッター部分(一番下)
+　　　合計などの時使用
+　tr:表の行
+　th:見出しセル
+　td:セル
+
+CSS 
+table-layput:表のレイアウト方法
+　auto:列の幅が表組みの幅とセルの内容に合わせて自動的に調整される。
+　fixed:列の幅はwidthプロパティで指定した値で固定される。
+　　　　指定がない場合は列幅が、表組の残りの幅に合わせて均等に分割される。
+
+line-height:文字の上下の余白の事。行間。
+text-align:行揃えの位置・均等割符を指定する。
+　center
+　right
+　left
+　start:初期値
+　end:s終端
+　justify:均等割り当て。割り当てがない限り、ラインボックスの始端に揃えられる。
+　justify-all:均等割り当て。最後の行も強制的に均等に割り当て。
+　match-parent:親要素の値を継承する。継承した値がstartまたはendの場合はleftまたはstartと解釈される。
+
+border-top:上辺に関する設定。
+　border-top:style, width, color
+　　style一覧
+　　　none:非表示(初期値、他と異なる罫線は他のｓｔｙｌｅを優先。)
+　　　hidden:非表示(他のスタイルより優先)
+　　　dotted:点線
+　　　dashed:破線
+　　　solid:1本線　　
+　　　double:2本線
+　　　groove:立体戦(窪み)
+　　　ridge:立体戦(隆起線)
+　　　inset:囲み立体戦(窪み)
+　　　outset:囲み立体戦(隆起線)

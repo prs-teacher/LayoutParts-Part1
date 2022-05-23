@@ -1,0 +1,8 @@
+CSS 
+display
+ table:ブロックを横並びにできる。
+ table-layout:ブロックを均等に横並びにできる。
+ table-cell:float指定しなくても横並びできる。
+ 　　　　　　余白をつける事ができるが、marginは指定できない。
+ 　　　　　　border-collapseを指定すると余白を作る事ができる。
+ 

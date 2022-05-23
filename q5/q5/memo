@@ -1,0 +1,43 @@
+css
+display
+ flex:ブロックを横並びにする事ができる。
+ 　　　floatより柔軟にレイアウトを組むことができる。
+ 　flex-direction:アイテムの並べる方向を指定する。
+ 　　row(初期値):左→右
+ 　　row-reverse:右→左
+ 　　column:上→下
+ 　　column-reverse:下→上
+ 　flex-wrap:アイテムを1行に並べるか複数行に並べるか指定できる。
+ 　　nowrap(初期値):フレックスアイテムが一行におさまらないときでも1行に収める。
+ 　　wrap:1行に収まらないとき、複数行にする。
+ 　　wrap-reverse:アイテムが1行に収まらないとき、複数にする。(順番は逆)
+ 　justify-content:flex-directionで並べる際に、どのような間隔で並べるか指定できる。
+ 　　flex-start:主軸の始点に配置
+ 　　flex-end:主軸の終点に配置
+ 　　center:主軸の中央に配置
+ 　　space-between:両端から均等に配置
+ 　　space-around:主軸に対し均等間隔に配置
+ 　align-items:flex-directionで並べる際に、項左軸に対して子要素同士をどのような間隔で並べるか指定できる。
+ 　　stretch:交差軸から始点から終点まで伸縮する(初期値)
+ 　　flex-start:交差軸の始点に配置する
+ 　　flex-end:交差軸の終点に配置
+ 　　center:交差軸の中央に配置する
+ 　　space-baseline:交差軸のベースラインに配置する
+
+ grid:gridコンテナでレイアウトを組み、アイテムで構成する。
+ 　grid-template-rows:グリッドの横方向のサイズを指定するプロパティ
+ 　grid-template-columns:グリッドの縦方向のサイズを指定するプロパティ
+ 　　grid-template-areas:レイアウトの領域に名前をつける
+ 　　　header, main, sidebar, footer
+ 　gap:縦方向と横方向のグリッドの間の余白を定義するプロパティ
+ 　row-gap:縦方向グリッドの間の余白を定義するプロパティ
+ 　column-gap:横方向グリッド間の余白を定義するプロパティ
+ 　justify-content:コンテナないにおけるグリッドの横方向の位置を指定するプロパティ
+ 　　start:左寄せ
+ 　　center:中央寄せ
+ 　　end:右寄せ
+ 　　stretch:軸の領域いっぱいにグリッドを拡げる
+ 　　space-between:均等配置/左右余白なし
+ 　　space-around:均等配置/左右に余白ありはアイテム間の半分
+ 　　space-evenly:均等配置/左右の余白はアイテム間と同様
+ 
