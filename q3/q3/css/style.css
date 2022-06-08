@@ -1,1 +1,31 @@
 @charset "UTF-8";
+
+
+.cell--table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+.cell--table th {
+  background-color: #319c4a;
+}
+
+.cell--table th, .cell--table td {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #000;
+}
+
+.cell--table tr {
+  background-color: #d5ffc7;
+}
+.cell--table tr:nth-child(even) {
+  background-color: #bcbcbc;
+}
+
+.cell--table tbody tr:last-child {
+  border-top: 1px double #ffffff;
+}
+
+
+
