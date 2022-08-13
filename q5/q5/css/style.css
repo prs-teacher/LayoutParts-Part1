@@ -1,1 +1,130 @@
 @charset "UTF-8";
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-row-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.flex-row-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row-column-reverse{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.flex-nowrap1{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.flex-wrap2{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-wrap-reverse3{
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+.flex-start{
+    display: flex;
+    justify-content: start;
+}
+
+.flex-end{
+    display: flex;
+    justify-content: end;
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+}
+.flex-between{
+    display: flex;
+    justify-content: space-between;
+}
+.flex-around{
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-item {
+    width: 65px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    background: #00bbdd;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    gap: 10px;
+}
+
+.grid-fr{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.grid-row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px 200px;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.grid-item {
+    padding: 10px;
+    text-align: start;
+    color: #fff;
+    background: #00bbdd;
+}
+
+.gridpuzzle{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    gap: 10px;
+}
+
+.redbox{
+    padding: 10px;
+    background: #dd0700;
+    color: #fff;
+    grid-column: span 2;
+}
+
+.bluebox{
+    padding: 10px;
+    background: #00bbdd;
+    color: #fff;
+}
+
+.greenbox{
+    padding: 10px;
+    background: #0bdd00;
+    color: #fff;
+    grid-row: span 2;
+}
+
+.yellowbox{
+    padding: 10px;
+    background: #d9dd00;
+    color: #fff;
+    grid-column: span 2;
+}
