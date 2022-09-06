@@ -1,1 +1,55 @@
 @charset "UTF-8";
+
+.barchart{
+    display: table;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.barchart:first-child{
+    margin-top: 0px;
+}
+
+.barchart1{
+    display: table-cell;
+    text-align: center;
+    padding: 20px;
+}
+
+.redbox{
+    width: 300px;
+    background: #ff7b7b;
+}
+
+.bluebox{
+    background: #7b86ff;
+}
+
+.yellowbox{
+    width: 300px;
+    background: #fff27b;
+}
+
+.barchart2{
+    display: table-cell;
+    text-align: center;
+    padding: 20px;   
+}
+
+.greenbox{
+    background: #7bff91;
+}
+
+.pinkbox{
+    width: 400px;
+    background: #ff7be2;
+}
+
+.orangebox{
+    width: 400px;
+    background: #ffc67b;
+}
+
+.lightbluebox{
+    background: #7bf2ff;
+}
