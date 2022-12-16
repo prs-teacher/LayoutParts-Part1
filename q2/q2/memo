@@ -1,0 +1,50 @@
+div:本質的には何も表さないが、divタグで指定した範囲にCSSのstyleを反映させる事ができる。
+span:divタグと同じような使い方をするが、文章の一部等範囲が狭い。
+class:種別名を割り当てる。同じHTMLページに何度も使える。
+id:固有の名前を割り当てる。同じHTMLページに1度しか使えない。
+　イメージ的には学級名がclassで、学籍番号がid
+
+list-style:listの頭のstyleを整える事ができる。
+　none:先頭なし
+　disc:黒丸
+　circle:白丸
+　square:四角
+　decimal:アラビア数字
+　decimal-leading-zero:アラビア数字(０を含む)
+　lower-roman:ローマ数字(小文字)
+　upper-roman:ローマ数字(大文字)
+　lower-alpha:英数字(小文字)
+　upper-alpha:英数字(大文字)
+　armenian:アルメニア文字
+　georgian:グルジア文字
+　lower-greek:ギリシャ文字(小文字)
+　inherit:継承
+
+outline:輪郭線の太さ・色・styleを指定できる。borderとほぼ同じ
+　outline-style:
+　　none:輪郭なし。太さ０の初期値
+　　solid:1本線
+　　double:2本線
+　　groove:立体的に窪んだ線で表示
+　　ridge:立体的に隆起した線で表示
+　　inset:上と左の線が暗く、下と右の線が明るく表示される。
+　　　　　アウトラインで囲まれた全体が立体的に窪んだように表示される。
+　　outset:insetの逆。上と左の線が明るく、下と右の線が暗く表示される。
+　　　　　　アウトラインで囲まれた全体が立体的に隆起したように表示される。
+　　dashed:破線で表示
+　　dotted:点線で表示
+　outline-color:色を指定。カラーコードで指定。
+　　invert:地の色を反転させた色になる。
+　outline-width:太さを指定
+　outline-offset:外側に話す距離を指定
+
+box-shadow:要素に影をつける時に使用する。
+　　　　　　box-shadow: 左右の向きpx 上下の向きpx ぼかしpx 広がりpx 色　inset(内側に影をつける時)
+
+boder-radius:角を丸くする。
+　　　　　　　50%で円になる。
+　4つの角をそれぞれ個別に角丸に指定する事もできる。
+　boder-top-left-radius:左上
+　boder-top-right-radius:右上
+　boder-bottom-left-radius:左下
+　border-bottom-right-radius:右下
