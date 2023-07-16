@@ -1,2 +1,60 @@
 @charset "UTF-8";
 /* 回答はここから */
+.inbox{
+  display:inline-block;
+  width:200px;
+  background-color:#ffffff;
+  padding:20px 0;
+  font-size:16px;
+}
+.text-align-box{
+  text-align:center;
+}
+.text-align{
+  display:inline-block;
+  padding:10px;
+  background-color:#a4b3e9
+}
+.text-margin{
+  text-align:center;
+  margin:0 auto;
+  width:90px;
+  padding:10px;
+  background-color:#a4b3e9;
+}
+/*----------------------------------------------*/
+.t--table{
+  display:table;
+}
+.t--cell{
+  text-align:center;
+  display:table-cell;
+  vertical-align:middle;
+}
+.t--text{
+  padding:10px;
+  background-color:#ffffff;
+  display:inline-block;
+}
+/*---------------------------------------------*/
+.f--flex{
+  display:flex;
+  align-items:center;
+  justify-content: center;
+}
+.f--text{
+  padding:10px;
+  background-color:#ffffff
+}
+/*---------------------------------------------*/
+.p--relative{
+  position:relative;
+}
+.p--absolute{
+  position:absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  padding:10px;
+  background-color: #a4b3e9;
+}
