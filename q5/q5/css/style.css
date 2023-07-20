@@ -1,1 +1,29 @@
 @charset "UTF-8";
+.item{
+  text-align:center;
+  width:65px;
+  padding:10px;
+  margin:10px;
+  background:#00bbdd;
+  color:#fff
+}
+
+.flex-box--row{
+  display:flex;
+  flex-direction:row;
+}
+
+.flex-box--row-reverse{
+  display:flex;
+  flex-direction:row-reverse;
+}
+
+.flex-box--column{
+  display:flex;
+  flex-direction:column;
+}
+
+.flex-box--column-reverse{
+  display:flex;
+  flex-direction:column-reverse;
+}
